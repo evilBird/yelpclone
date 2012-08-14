@@ -1,0 +1,286 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C69B65F815DB08B500F1DF00 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C69B65F715DB08B500F1DF00 /* UIKit.framework */; };
+		C69B65FA15DB08B500F1DF00 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C69B65F915DB08B500F1DF00 /* Foundation.framework */; };
+		C69B65FC15DB08B500F1DF00 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C69B65FB15DB08B500F1DF00 /* CoreGraphics.framework */; };
+		C69B660215DB08B500F1DF00 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C69B660015DB08B500F1DF00 /* InfoPlist.strings */; };
+		C69B660415DB08B500F1DF00 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C69B660315DB08B500F1DF00 /* main.m */; };
+		C69B660815DB08B500F1DF00 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C69B660715DB08B500F1DF00 /* AppDelegate.m */; };
+		C69B660B15DB08B500F1DF00 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C69B660A15DB08B500F1DF00 /* ViewController.m */; };
+		C69B660E15DB08B500F1DF00 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C69B660C15DB08B500F1DF00 /* ViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C69B65F315DB08B500F1DF00 /* yelpclone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = yelpclone.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C69B65F715DB08B500F1DF00 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C69B65F915DB08B500F1DF00 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C69B65FB15DB08B500F1DF00 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C69B65FF15DB08B500F1DF00 /* yelpclone-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "yelpclone-Info.plist"; sourceTree = "<group>"; };
+		C69B660115DB08B500F1DF00 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C69B660315DB08B500F1DF00 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C69B660515DB08B500F1DF00 /* yelpclone-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "yelpclone-Prefix.pch"; sourceTree = "<group>"; };
+		C69B660615DB08B500F1DF00 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C69B660715DB08B500F1DF00 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C69B660915DB08B500F1DF00 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C69B660A15DB08B500F1DF00 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C69B660D15DB08B500F1DF00 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C69B65F015DB08B500F1DF00 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C69B65F815DB08B500F1DF00 /* UIKit.framework in Frameworks */,
+				C69B65FA15DB08B500F1DF00 /* Foundation.framework in Frameworks */,
+				C69B65FC15DB08B500F1DF00 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C69B65E815DB08B400F1DF00 = {
+			isa = PBXGroup;
+			children = (
+				C69B65FD15DB08B500F1DF00 /* yelpclone */,
+				C69B65F615DB08B500F1DF00 /* Frameworks */,
+				C69B65F415DB08B500F1DF00 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C69B65F415DB08B500F1DF00 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C69B65F315DB08B500F1DF00 /* yelpclone.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C69B65F615DB08B500F1DF00 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C69B65F715DB08B500F1DF00 /* UIKit.framework */,
+				C69B65F915DB08B500F1DF00 /* Foundation.framework */,
+				C69B65FB15DB08B500F1DF00 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C69B65FD15DB08B500F1DF00 /* yelpclone */ = {
+			isa = PBXGroup;
+			children = (
+				C69B660615DB08B500F1DF00 /* AppDelegate.h */,
+				C69B660715DB08B500F1DF00 /* AppDelegate.m */,
+				C69B660915DB08B500F1DF00 /* ViewController.h */,
+				C69B660A15DB08B500F1DF00 /* ViewController.m */,
+				C69B660C15DB08B500F1DF00 /* ViewController.xib */,
+				C69B65FE15DB08B500F1DF00 /* Supporting Files */,
+			);
+			path = yelpclone;
+			sourceTree = "<group>";
+		};
+		C69B65FE15DB08B500F1DF00 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C69B65FF15DB08B500F1DF00 /* yelpclone-Info.plist */,
+				C69B660015DB08B500F1DF00 /* InfoPlist.strings */,
+				C69B660315DB08B500F1DF00 /* main.m */,
+				C69B660515DB08B500F1DF00 /* yelpclone-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C69B65F215DB08B500F1DF00 /* yelpclone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C69B661115DB08B500F1DF00 /* Build configuration list for PBXNativeTarget "yelpclone" */;
+			buildPhases = (
+				C69B65EF15DB08B500F1DF00 /* Sources */,
+				C69B65F015DB08B500F1DF00 /* Frameworks */,
+				C69B65F115DB08B500F1DF00 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = yelpclone;
+			productName = yelpclone;
+			productReference = C69B65F315DB08B500F1DF00 /* yelpclone.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C69B65EA15DB08B400F1DF00 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Maneesh Goel";
+			};
+			buildConfigurationList = C69B65ED15DB08B400F1DF00 /* Build configuration list for PBXProject "yelpclone" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C69B65E815DB08B400F1DF00;
+			productRefGroup = C69B65F415DB08B500F1DF00 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C69B65F215DB08B500F1DF00 /* yelpclone */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C69B65F115DB08B500F1DF00 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C69B660215DB08B500F1DF00 /* InfoPlist.strings in Resources */,
+				C69B660E15DB08B500F1DF00 /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C69B65EF15DB08B500F1DF00 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C69B660415DB08B500F1DF00 /* main.m in Sources */,
+				C69B660815DB08B500F1DF00 /* AppDelegate.m in Sources */,
+				C69B660B15DB08B500F1DF00 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C69B660015DB08B500F1DF00 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C69B660115DB08B500F1DF00 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C69B660C15DB08B500F1DF00 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C69B660D15DB08B500F1DF00 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C69B660F15DB08B500F1DF00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C69B661015DB08B500F1DF00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C69B661215DB08B500F1DF00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "yelpclone/yelpclone-Prefix.pch";
+				INFOPLIST_FILE = "yelpclone/yelpclone-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C69B661315DB08B500F1DF00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "yelpclone/yelpclone-Prefix.pch";
+				INFOPLIST_FILE = "yelpclone/yelpclone-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C69B65ED15DB08B400F1DF00 /* Build configuration list for PBXProject "yelpclone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C69B660F15DB08B500F1DF00 /* Debug */,
+				C69B661015DB08B500F1DF00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C69B661115DB08B500F1DF00 /* Build configuration list for PBXNativeTarget "yelpclone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C69B661215DB08B500F1DF00 /* Debug */,
+				C69B661315DB08B500F1DF00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C69B65EA15DB08B400F1DF00 /* Project object */;
+}
