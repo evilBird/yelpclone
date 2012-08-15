@@ -7,7 +7,16 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "RestKit.h"
+#import <CoreLocation/CoreLocation.h>
+#import <MapKit/MapKit.h>
+#import "JSONKit.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <RKRequestDelegate, CLLocationManagerDelegate, MKMapViewDelegate> {
+    IBOutlet UIButton *findStuffButton;
+    CLLocationManager *locationManager;
+    IBOutlet MKMapView *worldView;
+}
 
+-(IBAction)findNearbyStuff;
 @end

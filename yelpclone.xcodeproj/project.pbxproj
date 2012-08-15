@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		191136D57D404B71B3A74CD7 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DBD3F07078DB43849102555A /* libPods.a */; };
 		C69B65F815DB08B500F1DF00 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C69B65F715DB08B500F1DF00 /* UIKit.framework */; };
 		C69B65FA15DB08B500F1DF00 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C69B65F915DB08B500F1DF00 /* Foundation.framework */; };
 		C69B65FC15DB08B500F1DF00 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C69B65FB15DB08B500F1DF00 /* CoreGraphics.framework */; };
@@ -15,13 +16,16 @@
 		C69B660815DB08B500F1DF00 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C69B660715DB08B500F1DF00 /* AppDelegate.m */; };
 		C69B660B15DB08B500F1DF00 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C69B660A15DB08B500F1DF00 /* ViewController.m */; };
 		C69B660E15DB08B500F1DF00 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C69B660C15DB08B500F1DF00 /* ViewController.xib */; };
+		C6F2FBB215DB25DE000F6FB8 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6F2FBB115DB25DE000F6FB8 /* CoreLocation.framework */; };
+		C6F2FBB915DB2CFA000F6FB8 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6F2FBB815DB2CFA000F6FB8 /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		78BFA421859F4C67971C24EE /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
 		C69B65F315DB08B500F1DF00 /* yelpclone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = yelpclone.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		C69B65F715DB08B500F1DF00 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		C69B65F915DB08B500F1DF00 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		C69B65FB15DB08B500F1DF00 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C69B65F715DB08B500F1DF00 /* UIKit.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C69B65F915DB08B500F1DF00 /* Foundation.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C69B65FB15DB08B500F1DF00 /* CoreGraphics.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		C69B65FF15DB08B500F1DF00 /* yelpclone-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "yelpclone-Info.plist"; sourceTree = "<group>"; };
 		C69B660115DB08B500F1DF00 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C69B660315DB08B500F1DF00 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -31,6 +35,9 @@
 		C69B660915DB08B500F1DF00 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		C69B660A15DB08B500F1DF00 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		C69B660D15DB08B500F1DF00 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		C6F2FBB115DB25DE000F6FB8 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		C6F2FBB815DB2CFA000F6FB8 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		DBD3F07078DB43849102555A /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,9 +45,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C6F2FBB915DB2CFA000F6FB8 /* MapKit.framework in Frameworks */,
+				C6F2FBB215DB25DE000F6FB8 /* CoreLocation.framework in Frameworks */,
 				C69B65F815DB08B500F1DF00 /* UIKit.framework in Frameworks */,
 				C69B65FA15DB08B500F1DF00 /* Foundation.framework in Frameworks */,
 				C69B65FC15DB08B500F1DF00 /* CoreGraphics.framework in Frameworks */,
+				191136D57D404B71B3A74CD7 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,9 +60,12 @@
 		C69B65E815DB08B400F1DF00 = {
 			isa = PBXGroup;
 			children = (
+				C6F2FBB815DB2CFA000F6FB8 /* MapKit.framework */,
+				C6F2FBB115DB25DE000F6FB8 /* CoreLocation.framework */,
 				C69B65FD15DB08B500F1DF00 /* yelpclone */,
 				C69B65F615DB08B500F1DF00 /* Frameworks */,
 				C69B65F415DB08B500F1DF00 /* Products */,
+				78BFA421859F4C67971C24EE /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -70,6 +83,7 @@
 				C69B65F715DB08B500F1DF00 /* UIKit.framework */,
 				C69B65F915DB08B500F1DF00 /* Foundation.framework */,
 				C69B65FB15DB08B500F1DF00 /* CoreGraphics.framework */,
+				DBD3F07078DB43849102555A /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -108,6 +122,7 @@
 				C69B65EF15DB08B500F1DF00 /* Sources */,
 				C69B65F015DB08B500F1DF00 /* Frameworks */,
 				C69B65F115DB08B500F1DF00 /* Resources */,
+				2C5EE54EE8F94602BC4AA0E3 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -155,6 +170,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2C5EE54EE8F94602BC4AA0E3 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C69B65EF15DB08B500F1DF00 /* Sources */ = {
@@ -240,6 +272,7 @@
 		};
 		C69B661215DB08B500F1DF00 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 78BFA421859F4C67971C24EE /* Pods.xcconfig */;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "yelpclone/yelpclone-Prefix.pch";
@@ -251,6 +284,7 @@
 		};
 		C69B661315DB08B500F1DF00 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 78BFA421859F4C67971C24EE /* Pods.xcconfig */;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "yelpclone/yelpclone-Prefix.pch";
@@ -279,6 +313,7 @@
 				C69B661315DB08B500F1DF00 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
